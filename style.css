@@ -1,0 +1,29 @@
+html {
+  /* border: 1px darkred solid; */
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 2rem;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(./assets/site-background-1.png) fixed center / cover;
+  animation: bg-scroll 20s ease-in-out infinite alternate;
+}
+
+@keyframes bg-scroll {
+  0% {background-image: url(./assets/site-background-1.png);}
+  50% {background-image: url(./assets/site-background-2.png);}
+  100% {background-image: url(./assets/site-background-3.png);}
+  /* 100% {background-image: url(./assets/site-background-3.png);} */
+}
+
+h1 {
+  font-size: 3rem;
+  background-color: hsla(0 0 30% .8);
+}
+
