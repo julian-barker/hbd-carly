@@ -52,3 +52,34 @@ h1 {
   /* background-color: hsla(0 0 30% .8); */
 }
 
+#slideshow {
+  width: 90%;
+  height: 600px;
+  background: url(./assets/slideshow/1.jpeg) center / contain;
+  background-repeat: no-repeat;
+  animation: slideshow 120s cubic-bezier(.5, .02, .9, .05) infinite;
+}
+
+@keyframes slideshow {
+  0% {background-image: url(./assets/slideshow/1.jpeg);}
+  5% {background-image: url(./assets/slideshow/2.jpeg);}
+  10% {background-image: url(./assets/slideshow/3.jpeg);}
+  15% {background-image: url(./assets/slideshow/4.jpeg);}
+  20% {background-image: url(./assets/slideshow/5.jpeg);}
+  25% {background-image: url(./assets/slideshow/6.jpeg);}
+  30% {background-image: url(./assets/slideshow/7.jpeg);}
+  35% {background-image: url(./assets/slideshow/8.jpeg);}
+  40% {background-image: url(./assets/slideshow/9.jpeg);}
+  45% {background-image: url(./assets/slideshow/10.jpeg);}
+  50% {background-image: url(./assets/slideshow/11.jpeg);}
+  55% {background-image: url(./assets/slideshow/12.jpeg);}
+  60% {background-image: url(./assets/slideshow/13.jpeg);}
+  65% {background-image: url(./assets/slideshow/14.jpeg);}
+  70% {background-image: url(./assets/slideshow/15.jpeg);}
+  75% {background-image: url(./assets/slideshow/16.jpeg);}
+  80% {background-image: url(./assets/slideshow/17.jpeg);}
+  85% {background-image: url(./assets/slideshow/18.jpeg);}
+  90% {background-image: url(./assets/slideshow/19.jpeg);}
+  95% {background-image: url(./assets/slideshow/20.jpeg);}
+  100% {background-image: url(./assets/slideshow/21.jpeg);}
+}
